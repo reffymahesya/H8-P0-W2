@@ -8,7 +8,7 @@ var input = [
 
 function dataHandling(array){
 	for (i = 0; i < array.length; i++){
-		console.log('Nomor id: ' + array[i][0] + '\n' + 'Nama Lengkap: ' + array[i][1] + '\n' + 'TTL: ' +  array[i][2]  + '\n' + 'Hobi: ' + array[i][3] + '\n')
+		console.log('Nomor id: ' + array[i][0] + '\n' + 'Nama Lengkap: ' + array[i][1] + '\n' + 'TTL: ' +  array[i][2]+ ' ' + array[i][3]  + '\n' + 'Hobi: ' + array[i][4] + '\n')
 	}
 }
 dataHandling(input)
